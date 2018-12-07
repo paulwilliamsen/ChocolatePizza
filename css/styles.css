@@ -1,0 +1,47 @@
+/* font-family: 'Raleway', sans-serif;
+font-family: 'Noto Serif SC', serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Charmonman', cursive;
+font-family: 'Acme', sans-serif; */
+
+html {
+  width: 1000px;
+  
+}
+h1, h2 {
+  margin-left: 55px;
+  
+}
+
+
+
+.little-icons, .print {
+  margin-right: 55px;
+  float: right;
+}
+
+
+.hero  {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+p {
+  
+  margin: 0 auto;
+}
+
+.left-margin {
+  margin-left:7.5px;
+}
+
+p {
+  text-indent: 20px;
+}
+.left-list {
+  float: right;
+  /* display: table-column; */
+  z-index: -1;
+  
+
+}
