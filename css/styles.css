@@ -43,14 +43,8 @@ font-size: 12px;
 font-family: 'Noto Serif SC', serif;
 
 }
-
-#listbg.container {
-  margin-top: 30px;
-  width: 1000px;
-
-}
 .little-icons  {
-
+  
   float: right;
   margin-top: -30px;
 }
@@ -76,21 +70,39 @@ p {
   letter-spacing: 1px;
   line-height: 30px;
   margin-top:20px;
-
-}
-.container {
   
 }
+
+#listbg {
+  margin-top: 30px;
+  width: 1000px;
+
+}
+
+.listlist {
+  font-family: 'Gloria Hallelujah', cursive;
+background-image: url("../img/list-bg.png");
+
+}
+
+.leftlist {  
+float: left;
+margin-left: 40px;
+display: inline;
+width: 49%;
+}
+
+.rightlist {
+display: inline;
+float: right;
+
+}
+
 
 .left-margin {
   margin-left:7.5px;
 }
 
-ul {
-list-style: square;
-list-style-position: inside;
-font-family: 'Gloria Hallelujah', cursive;
-}
 
 
 #vanessa {
@@ -110,4 +122,8 @@ font-family: 'Raleway', sans-serif;
 
  margin-left: auto;
  margin-right: auto;
+}
+ul li {
+  display: block;
+  line-height: 2em;
 }
